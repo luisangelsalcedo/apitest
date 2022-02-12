@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 // import { productCtrl } from "./api/controllers/index.js";
 // const { getAllProducts, getOneProduct, createProduct } = productCtrl;
 
-import { productRouter } from "./api/routes/index.js";
+import { productRouter, soldRouter } from "./api/routes/index.js";
 
 const app = express();
 
@@ -42,6 +42,7 @@ app.get("/", (request, response) => {
 
 // Router
 app.use("/api", productRouter);
+app.use("/api", soldRouter);
 
 // app.get("/api/products", getAllProducts);
 // app.get("/api/products/:id", getOneProduct);
