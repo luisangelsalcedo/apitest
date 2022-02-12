@@ -47,7 +47,10 @@ app.use("/api", productRouter);
 // app.get("/api/products/:id", getOneProduct);
 // app.post("/api/products/create", createProduct);
 
+// variable de entorno
+const PORT = process.env.PORT || 5000;
+
 // Launching server
-app.listen("5000", () => {
+app.listen(PORT, () => {
   console.log("Iniatialized server");
 });
