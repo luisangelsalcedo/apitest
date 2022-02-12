@@ -1,0 +1,28 @@
+{
+    "ref": "PA1",
+    "name": "Camisa 1",
+    "description": "Camisa roja con mangas largas",
+    "create_at": "2022-01-01T05:00:00.000Z",
+    "price": 10000,
+    "discount": 10,
+    "active": true
+  }
+  {
+    "ref": "PA2",
+    "name": "Camisa 2",
+    "description": "Camisa azul con mangas corta",
+    "create_at": "2022-01-01T05:00:00.000Z",
+    "price": 10000,
+    "discount": 10,
+    "active": true
+  }
+  {
+    "ref": "ox1",
+    "name": "Pantalon",
+    "description": "Pantalon corto",
+    "create_at": "2022-02-11T03:56:48.887Z",
+    "price": 10000,
+    "discount": 10,
+    "active": true,
+    "__v": 0
+  }
